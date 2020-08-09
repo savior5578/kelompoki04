@@ -1,0 +1,71 @@
+* {
+  border-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+    margin: 0 auto;
+  }
+  .top-main h1 {
+    font-size: 32px;
+  }
+  .heading h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 670px) {
+  .header {
+    height: 65px;
+  }
+  .header-right {
+    margin-right: 1px;
+  }
+  .logo {
+    width: 104px;
+    line-height: 65px;
+  }
+  .header-right a {
+    font-size: 8px;
+  }
+  .button-main p {
+    display: none;
+  }
+  .lesson {
+    width: 100%;
+  }
+  .button {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+  }
+  .email {
+    margin-bottom: 10px;
+  }
+  .instagram {
+    margin-bottom: 10px;
+  }
+  footer {
+    font-size: 8px
+  }
+  .top-main {
+    text-align: left;
+  }
+  .top-main h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .top-main p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 370px) {
+  footer {
+    font-size: 2px;
+  }
+}
